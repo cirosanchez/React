@@ -1,0 +1,7 @@
+name: React
+main: me.cirosanchez.react.React
+version: 0.0.1
+api-version: 1.20
+depend: ["PlaceholderAPI"]
+commands:
+  actionbartest:

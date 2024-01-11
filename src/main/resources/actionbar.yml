@@ -1,0 +1,71 @@
+#  ___       _   _             _
+# / _ \     | | (_)           | |
+#/ /_\ \ ___| |_ _  ___  _ __ | |__   __ _ _ __
+#|  _  |/ __| __| |/ _ \| '_ \| '_ \ / _` | '__|
+#| | | | (__| |_| | (_) | | | | |_) | (_| | |
+#\_| |_/\___|\__|_|\___/|_| |_|_.__/ \__,_|_|
+#
+# Thanks for using React, remember to get support please join my discord!
+# https://discord.cirosanchez.me
+
+# Remember that React does not use regular color codes, we use MiniMessage
+# Please refer to this: https://docs.advntr.dev/minimessage/index.html
+
+features:
+  join-actionbars: true
+
+# Actionbars
+#
+# This actionbars will be stored on the plugin's cache
+# You can make as many as you want, please number starting from one
+# You can send a player this actionbar via:
+# /actionbar <player> <ID>
+#
+# PLACEHOLDERAPI COMPATIBLE!
+#
+# Use none when you don't want a sound or particle to spawn/play.
+actionbars:
+  '1':
+    msg: Buy a rank via <rainbow>https://discord.cirosanchez.me</rainbow>
+    sound: ENTITY_CAT_PURREOW
+    particle: CLOUD
+
+
+# Join Actionbar Message
+#
+# This actionbars will display when a player joins the server
+# You can make as many as you want, please number starting from one
+# This will be randomly selected when joining.
+#
+# PLACEHOLDERAPI COMPATIBLE
+#
+# Use none when you don't want a sound or particle to spawn/play.
+join-actionbars:
+  1:
+    msg: "Welcome! <blue>https://discord.cirosanchez.me</blue>"
+    sound: ENTITY_CAT_PURREOW # https://jd.papermc.io/paper/1.20/org/bukkit/Sound.html
+    particle: CLOUD # https://jd.papermc.io/paper/1.20/org/bukkit/Particle.html
+  2:
+    msg: "<rainbow>React's the best plugin on earth!</rainbow>"
+    sound: none
+    particle: TOTEM
+  3:
+    msg: "<white>Thanks for using </white><gradient:#04ff00:#00FBFF>React</gradient>"
+    sound: ENTITY_VILLAGER_YES
+    particle: none
+
+# Recurrent Actionbars
+#
+# This actionbars will be sent by the player ocassionally
+# Will repeat while the server is on, and you decide how much time between actionbar
+#
+# PLACEHOLDER API COMPATIBLE
+#
+# Use none when you don't want a sound or particle to spawn/play.
+recurrent-actionbars:
+  1:
+    msg: "<gradient:#04ff00:#00FBFF>React</gradient> is totally <green>Free!</green>"
+    sound: none
+    particle: none
+    permission: react.recurrent.discord
+    time: 50  # Time in ticks https://www.mc-ticks.pro/?i=1

@@ -1,0 +1,10 @@
+
+no-permission: "<red>No tienes permisos suficientes!</red>"
+console: "<red>No puedes hacer esto en CONSOLA!</red>"
+syntax: "<red>{command.syntax}</red>"
+null-target: "<red>{target} no está conectado!</red>"
+
+commands:
+  actionbar:
+    success: "Enviaste un actionbar a: <green>{player.name}</green>"
+    failed: "<red>Revisa tu ID</red>"
