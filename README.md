@@ -16,10 +16,6 @@
   <img alt="Github language count" src="https://img.shields.io/badge/Version-v0.0.1-green">
 
   <img alt="Repository size" src="https://img.shields.io/badge/Paper-1.20.4-blue">
-
-  <img alt="License" src="https://img.shields.io/github/license/cirosanchez/React
-">
-
 </p>
 
 <!-- Status -->
